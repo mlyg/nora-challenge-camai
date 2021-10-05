@@ -1,1 +1,1 @@
-# nora-challenge-camai
+# MedAI NORA challenge Team CamAI submission
