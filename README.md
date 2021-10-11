@@ -2,8 +2,11 @@
 
 Code associated with Team CamAI submission.
 
-The repository will contain:
-1. Model architecture
-2. Training scripts
-3. Post-processing scripts
-4. Model weights
+For our experiments, we make use of the Medical Image Segmentation with Convolutional Neural Networks (MIScnn) open-source python library: 
+https://github.com/frankkramer-lab/MIScnn
+
+
+The repository contains:
+1. Training scripts
+2. Model
+3. Model weights
