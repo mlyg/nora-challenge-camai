@@ -1,6 +1,6 @@
 # MedAI NORA challenge Team CamAI submission
 
-Code associated with Team CamAI submission.
+Code associated with the third place solution:
 
 For our experiments, we make use of the Medical Image Segmentation with Convolutional Neural Networks (MIScnn) open-source python library: 
 https://github.com/frankkramer-lab/MIScnn
