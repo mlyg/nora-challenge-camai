@@ -9,6 +9,18 @@ https://journals.uio.no/NMI/article/view/9157
 The challenge overview is available at:
 https://www.nora.ai/Competition/image-segmentation.html
 
+## Repository details
+
+For our experiments, we make use of the Medical Image Segmentation with Convolutional Neural Networks (MIScnn) open-source python library: 
+https://github.com/frankkramer-lab/MIScnn
+
+The repository contains:
+1. Training scripts
+2. Model
+
+Model weights, training curves and dataset partitions may be found at:
+https://drive.google.com/drive/folders/1M1JOeH1Cra4f8HPmfnv13uwE5Is6dlGi?usp=sharing
+
 ## Architecture overview
 The Attention U-Net incorporates Attention Gates (AGs) into U-Net, which uses a gating signal that aggregates multiscale spatial information to highlight salient featurespresent in skip connection. We leverage the interpretable nature of the Attention U-Net, with the performance benefits of transfer learning, combining a ResNet152 encoder pre-trained on ImageNet with an Attention U-Net decoder network:
 
@@ -50,15 +62,3 @@ An example of a well segmented case in the test set is shown for:
 We compare pipeline predictions with images from the hold-out test set, investigating the cause, and proposing solutions, where the model fails to provide accurate polyp (a-c) and instrument (d-f) segmentations:
 
 ![failure analysis](https://github.com/mlyg/nora-challenge-camai/blob/main/Figures/failure_analysis.png)
-
-## Repository details
-
-For our experiments, we make use of the Medical Image Segmentation with Convolutional Neural Networks (MIScnn) open-source python library: 
-https://github.com/frankkramer-lab/MIScnn
-
-The repository contains:
-1. Training scripts
-2. Model
-
-Model weights, training curves and dataset partitions may be found at:
-https://drive.google.com/drive/folders/1M1JOeH1Cra4f8HPmfnv13uwE5Is6dlGi?usp=sharing
