@@ -17,6 +17,7 @@ https://github.com/frankkramer-lab/MIScnn
 The repository contains:
 1. Training scripts
 2. Model
+3. Postprocessing
 
 Model weights, training curves and dataset partitions may be found at:
 https://drive.google.com/drive/folders/1M1JOeH1Cra4f8HPmfnv13uwE5Is6dlGi?usp=sharing
