@@ -12,7 +12,7 @@ https://www.nora.ai/Competition/image-segmentation.html
 ## Repository details
 
 For our experiments, we make use of the Medical Image Segmentation with Convolutional Neural Networks (MIScnn) open-source python library: 
-https://github.com/frankkramer-lab/MIScnn
+https://github.com/frankkramer-lab/MIScnn. All experiments were programmed with Tensorflow using Keras backend.
 
 The repository contains:
 1. Training scripts
